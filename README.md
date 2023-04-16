@@ -1,8 +1,11 @@
-*TokenController:*
+*Proje Master Branch'inde*
+
+
+**TokenController:**
 
 Login için sorgu ve Token Generate kısmı "/api/Token" çağırımında gerçekleşiyor. Bu endpoint'e yetkisiz çağrı yapılabilir.
 
-*PersonController:*
+**PersonController:**
 
 GetAll, GetById, Post, Put, Delete action methodları tanımlı. 
 
@@ -12,7 +15,7 @@ Filtreleme işlemi için PersonService kısmına 2 yeni method eklendi.(FilterBy
 
 Bu controller üzerindeki hiçbir endpoint yetkisiz çağrıya açık değil.
 
-*AccountController:*
+**AccountController:**
 
 GetAll, GetById, Post, Put, Delete action methodları tanımlı. 
 
